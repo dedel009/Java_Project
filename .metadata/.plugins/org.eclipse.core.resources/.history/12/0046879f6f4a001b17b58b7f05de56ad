@@ -1,0 +1,15 @@
+package project1230;
+import java.util.*;
+
+public class SmartPhone extends App{
+	
+	public void turn_menu() {
+		Scanner sc = new Scanner(System.in);
+	}
+	
+	public boolean turn_on() {
+		return true;
+	}
+
+	
+}

@@ -1,0 +1,19 @@
+package project1229;
+
+public class Money {
+	private int money;
+	private int atm_menu;
+	
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public int getAtm_menu() {
+		return atm_menu;
+	}
+	public void setAtm_menu(int atm_menu) {
+		this.atm_menu = atm_menu;
+	}
+}

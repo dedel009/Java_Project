@@ -1,0 +1,16 @@
+package project1230;
+import java.util.*;
+
+public class User {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("[1]키기 [2]끄기");
+		boolean turn = sc.next();
+		SmartPhone sp = new SmartPhone(turn);
+		while(turn) {
+			
+		}
+		
+	}
+}

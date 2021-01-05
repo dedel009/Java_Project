@@ -1,0 +1,6 @@
+package project1229;
+
+public class Money {
+	int money;
+	int atm_menu;
+}

@@ -1,0 +1,29 @@
+package project1230;
+import java.util.*;
+
+public class User {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SmartPhone sp = new SmartPhone();
+		Scanner sc = new Scanner(System.in);
+		boolean turn = true;
+		System.out.println("[1]키기 [2]끄기");
+		int num = sc.nextInt();
+		switch(num) {
+		case 1:
+			turn = true;
+			break;
+		case 2:
+			turn = false;
+			break;
+			default:
+				System.out.println("에러");
+				break;
+		}
+
+		while(turn) {
+			
+		}
+		
+	}
+}

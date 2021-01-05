@@ -1,0 +1,15 @@
+package project1231;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		C c = new C();
+		B b= c;
+		
+		c.setB("ggog");
+		System.out.println(c.getB());
+		System.out.println(b.getB());
+	}
+
+}

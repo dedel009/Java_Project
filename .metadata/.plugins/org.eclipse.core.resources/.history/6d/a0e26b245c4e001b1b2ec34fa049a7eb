@@ -1,0 +1,13 @@
+package project0104;
+
+public class SubMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputStr is = new InputStr();
+		while(true) {
+			System.out.println("[1]입력 [2]조회");
+		}
+	}
+
+}

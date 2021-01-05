@@ -1,0 +1,14 @@
+package project1230;
+
+import java.util.*;
+
+public class Car extends Color {
+	private String brand;
+	private String color;
+	private String tire;
+
+	public Car() {
+
+	}
+
+}

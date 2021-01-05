@@ -1,0 +1,34 @@
+package project1230;
+import java.util.*;
+
+public class SmartPhone extends App{
+	
+	public void turn_menu() {
+		boolean turn = true;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("[1]키기 [2]끄기");
+		int num = sc.nextInt();
+		switch(num) {
+		case 1:
+			turn = turn_on();
+			break;
+		case 2:
+			turn = turn_off();
+			break;
+			default:
+				System.out.println("에러");
+				break;
+		}
+		
+		
+	}
+	
+	public boolean turn_on() {
+		return true;
+	}
+	public boolean turn_off() {
+		return false;
+	}
+
+	
+}

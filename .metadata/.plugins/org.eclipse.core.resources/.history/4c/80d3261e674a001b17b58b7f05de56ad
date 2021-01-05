@@ -1,0 +1,10 @@
+package project1230;
+import java.text.SimpleDateFormat;
+
+public class Time {
+	
+	public void check_time() {
+		SimpleDateFormat getTime = new SimpleDateFormat( "HH시mm분ss초");
+		
+	}
+}

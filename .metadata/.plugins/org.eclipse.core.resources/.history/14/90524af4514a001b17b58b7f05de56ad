@@ -1,0 +1,17 @@
+package project1230;
+import java.util.*;
+
+public class App {
+	private ArrayList<String> App_data = new ArrayList<String>(
+			Arrays.asList("설정", "날씨", "앱스토어", "전화")		//기본적으로 깔려있는 앱
+			);
+
+	public ArrayList<String> getApp_data() {
+		return App_data;
+	}
+
+	public void setApp_data(String app) {
+		App_data.add(app);
+	}
+	
+}

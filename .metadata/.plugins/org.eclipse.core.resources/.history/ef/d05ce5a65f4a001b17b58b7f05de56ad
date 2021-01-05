@@ -1,0 +1,12 @@
+package project1230;
+
+public class Tv_onoff {
+	private boolean tv = true;
+	
+	public void tv_on() {
+		tv = true;
+	}
+	public void tv_off() {
+		tv = false;
+	}
+}

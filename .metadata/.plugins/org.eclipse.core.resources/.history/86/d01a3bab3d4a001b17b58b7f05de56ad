@@ -1,0 +1,24 @@
+package project1230;
+
+public class Car extends Color{
+	String wheel;
+	String tire;
+	String Engine;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		car_Color();
+		
+		
+	}
+	
+	public static void car_Color() {
+		Car car1 = new Car();
+		for(String color: car1.carColor) {
+			System.out.print(color+" ");
+		}
+		System.out.println("중 색을 고르시오.");
+		
+	}
+
+}

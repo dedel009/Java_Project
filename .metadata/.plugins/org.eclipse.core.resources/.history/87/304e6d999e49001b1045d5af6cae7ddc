@@ -1,0 +1,21 @@
+package project1229;
+import java.util.*;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		User us = new User();
+		
+		while(true) {
+			System.out.println("아이디 입력");
+			us.setId(sc.nextLine());
+			System.out.println("이름 입력");
+			us.setName(sc.nextLine());
+			System.out.println("비밀번호 입력");
+			us.setPass(sc.nextInt());
+		}
+	}
+
+}

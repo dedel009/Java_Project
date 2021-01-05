@@ -1,0 +1,8 @@
+package project1230;
+
+public class Tire {
+	
+	public void run() {
+		System.out.println("타이어가 돌아갑니당");
+	}
+}

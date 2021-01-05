@@ -1,0 +1,14 @@
+package project1230;
+
+public class Coding_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "9B768C";
+		String array[] = str.split("");
+		for(String s : array) {
+			System.out.println(s);
+		}
+	}
+
+}

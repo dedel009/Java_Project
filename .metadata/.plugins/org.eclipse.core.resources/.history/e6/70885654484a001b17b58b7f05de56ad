@@ -1,0 +1,9 @@
+package project1230;
+
+public class Company {
+	String brand[] = {"BMW", "HYDAI", "BENZ", "AUDI"};
+	
+	public void kinds() {
+		String kinds = "승용차";
+	}
+}

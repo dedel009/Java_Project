@@ -1,0 +1,9 @@
+package project1230;
+
+public class Tire extends Car{
+	String tire = ""; 		//타이어 브랜드
+	
+	public static void run() {
+		System.out.println("타이어가 돌아갑니당");
+	}
+}

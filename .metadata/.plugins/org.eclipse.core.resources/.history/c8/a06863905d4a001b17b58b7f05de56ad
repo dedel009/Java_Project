@@ -1,0 +1,11 @@
+package project1230;
+
+public class Channel {
+	private int channel_num;
+	
+	public Channel(int channel_num) {
+		System.out.println("몇 번 채널: ");
+		this.channel_num = channel_num;
+		System.out.println(this.channel_num+"채널로 이동되었습니다.");
+	}
+}

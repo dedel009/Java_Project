@@ -1,0 +1,8 @@
+package project1230;
+
+public class Volum {
+	int volum;
+	public Volum() {
+		
+	}
+}

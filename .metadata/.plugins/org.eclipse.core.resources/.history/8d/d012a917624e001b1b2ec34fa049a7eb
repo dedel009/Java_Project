@@ -1,0 +1,6 @@
+package project0104;
+
+public class Str_list {
+	Str[] str_array = new Str[1];
+	int count;
+}

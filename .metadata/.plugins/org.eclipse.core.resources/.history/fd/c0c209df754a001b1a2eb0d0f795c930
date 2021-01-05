@@ -1,0 +1,14 @@
+package project1230;
+
+public class AppStore extends App{
+	
+	public AppStore() {
+		System.out.println("1. 카카오톡 2. 멜론 3. 카트라이더");		//메뉴
+	}
+	
+	public void download_App(String app) {		//앱다운로드
+		getApp_data().add(app);
+	}
+	
+
+}

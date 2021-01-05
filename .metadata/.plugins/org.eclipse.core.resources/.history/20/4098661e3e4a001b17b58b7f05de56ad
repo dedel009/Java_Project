@@ -1,0 +1,29 @@
+package project1230;
+import java.util.*;
+
+public class Car extends Color{
+	String wheel;
+	String tire;
+	String Engine;
+	String color;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		car_Color();
+		
+		
+	}
+	
+	public static void car_Color() {
+		Scanner sc = new Scanner(System.in);
+		Car car1 = new Car();
+		for(String color: car1.carColor) {
+			System.out.print(color+" ");
+		}
+		System.out.println("중 색을 고르시오.");
+		car1.color = sc.next();
+		System.out.println(car1.color+" 선택!");
+		
+	}
+
+}

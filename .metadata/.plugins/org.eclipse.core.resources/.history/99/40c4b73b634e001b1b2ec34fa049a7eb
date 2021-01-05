@@ -1,0 +1,24 @@
+package project0104;
+import java.util.*;
+
+public class InputStr {
+	static Scanner sc = new Scanner(System.in);
+	
+	public Str[] input() {
+		System.out.println("글자입력");
+		String input = sc.next();
+		Str str = new Str();
+		str.str = input;
+		Str_list sl = new Str_list();
+		
+		sl.str_array[sl.count] = str;
+		sl.count++;
+		
+		if(sl.str_array.length == sl.count) {
+			Str[] temp = new Str[sl.str_array.length+1];
+			temp[sl.count] = sl.str_array[sl.count];
+			sl.str_array = temp;
+		}
+		
+	}
+}

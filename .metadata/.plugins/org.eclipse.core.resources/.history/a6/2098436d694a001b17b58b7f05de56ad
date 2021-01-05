@@ -1,0 +1,7 @@
+package project1230;
+
+public class Movie_actor extends Movie{
+	public void change_actor() {
+		super.movie_actor = "아저씨";
+	}
+}

@@ -1,0 +1,24 @@
+package project1230;
+import java.util.*;
+
+public class Volum {
+	int volum;
+	public Volum() {
+		try {
+			Scanner sc= new Scanner(System.in);
+			System.out.println("+  -");
+			String volum_menu = sc.next();
+			switch(volum_menu) {
+			case "+":
+				this.volum +=1;
+				break;
+			case "-":
+				this.volum -=1;
+				break;
+			}
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	
+	}
+}

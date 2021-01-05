@@ -1,0 +1,10 @@
+package project1230;
+import java.util.*;
+
+public class Time {
+	
+	public void check_time() {
+		SimpleDateFormat  time = new SimpleDateFormat();
+		System.out.println(time);
+	}
+}

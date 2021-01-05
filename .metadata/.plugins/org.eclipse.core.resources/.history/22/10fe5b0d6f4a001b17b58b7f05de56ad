@@ -1,0 +1,13 @@
+package project1230;
+
+public class User {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean turn = true;
+		SmartPhone sp = new SmartPhone(turn);
+		while(turn) {
+			
+		}
+		
+	}
+}

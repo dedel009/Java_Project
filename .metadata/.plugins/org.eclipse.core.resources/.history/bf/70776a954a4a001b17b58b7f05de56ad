@@ -1,0 +1,13 @@
+package project1230;
+
+public class Company {
+	String brand[] = {"BMW", "HYDAI", "BENZ", "AUDI"};
+	String choice_brand;
+	public void intro_BMW() {
+		String BMW_cars[] = {"Z4", "X7", "X6", "X5plus"};
+		System.out.print("목록: ");
+		for(String show : BMW_cars) {
+			System.out.print(show+" ");
+		}
+	}
+}

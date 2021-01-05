@@ -1,0 +1,14 @@
+package project1230;
+
+public class Car extends Color{
+	String wheel;
+	String tire;
+	String Engine;
+	String color;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

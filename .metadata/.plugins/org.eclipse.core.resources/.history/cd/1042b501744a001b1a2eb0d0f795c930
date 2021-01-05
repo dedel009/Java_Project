@@ -1,0 +1,13 @@
+package project1230;
+
+public class AppStore extends App{
+	
+	public void download_App(String app) {		//앱다운로드
+		
+		getApp_data().add(app);
+	}
+	
+	public void delete_App(String app) {
+		getApp_data().remove(app);
+	}
+}

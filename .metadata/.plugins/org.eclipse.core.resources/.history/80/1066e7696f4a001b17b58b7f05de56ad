@@ -1,0 +1,12 @@
+package project1230;
+
+public class SmartPhone extends App{
+	public SmartPhone(boolean turn) {
+		if(turn) {
+			System.out.println("폰을 켭니다.");
+		}else {
+			System.out.println("폰을 끕니다.");
+		}
+
+	}
+}

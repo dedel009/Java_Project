@@ -1,0 +1,9 @@
+package project1230;
+import java.util.*;
+
+public class Time {
+	
+	public void check_time() {
+		Date time = new Date();
+	}
+}

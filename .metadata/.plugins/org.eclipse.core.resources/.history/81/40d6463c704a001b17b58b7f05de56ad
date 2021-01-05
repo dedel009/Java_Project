@@ -1,0 +1,14 @@
+package project1230;
+import java.util.*;
+
+public class User {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SmartPhone sp = new SmartPhone();
+
+		while(sp.turn) {
+			sp.show_App();
+		}
+		
+	}
+}

@@ -1,0 +1,18 @@
+package project0104;
+import java.util.*;
+
+public class InputStr {
+	static Scanner sc = new Scanner(System.in);
+	Str[] str_array = new Str[1];
+	int count;
+	
+	public void subStr() {
+		System.out.println("글자입력");
+		String input = sc.next();
+		Str str = new Str();
+		str.str = input;
+		
+		str_array[count] = str;
+
+	}
+}

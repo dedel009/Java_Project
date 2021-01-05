@@ -1,0 +1,24 @@
+package project1230;
+
+public class AppStore extends App{
+	
+	private String app_name[] = {"카카오톡", "멜론", "스타벅스", "카트라이더"};	//앱스토어 앱들
+	
+	public String[] getApp_name() {
+		return app_name;
+	}
+
+	public void setApp_name(String[] app_name) {
+		this.app_name = app_name;
+	}
+
+	public AppStore() {
+		System.out.println("앱스토어 메뉴");		//메뉴
+	}
+	
+	public void download_App(String app) {		//앱다운로드
+		getApp_data().add(app);
+	}
+	
+
+}

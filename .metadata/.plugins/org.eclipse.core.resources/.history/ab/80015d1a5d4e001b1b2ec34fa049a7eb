@@ -1,0 +1,16 @@
+package project0104;
+import java.util.*;
+
+public class SubMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		InputStr is = new InputStr();
+		while(true) {
+			System.out.println("[1]입력 [2]조회");
+			int menu = sc.nextInt();
+		}
+	}
+
+}

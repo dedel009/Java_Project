@@ -1,0 +1,14 @@
+package project1230;
+
+public class AppStore extends App{
+	
+	public AppStore() {
+		System.out.println("앱스토어 입장");
+	}
+	
+	public void download_App(String app) {		//앱다운로드
+		getApp_data().add(app);
+	}
+	
+
+}

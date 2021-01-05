@@ -1,0 +1,6 @@
+package project1230;
+
+public class Company extends Car {
+	String brand[] = {"BMW", "HYDAI", "BENZ", "AUDI"};
+	
+}

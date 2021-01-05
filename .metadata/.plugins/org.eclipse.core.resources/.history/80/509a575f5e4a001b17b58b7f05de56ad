@@ -1,0 +1,10 @@
+package project1230;
+
+public class Channel {
+	private int channel_num;
+	
+	public Channel() {
+		this.channel_num = channel_num;
+		System.out.println(this.channel_num+"채널로 이동되었습니다.");
+	}
+}

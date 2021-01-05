@@ -1,0 +1,6 @@
+package project1230;
+
+public class App {
+	String App[] = {"설정","전화","앱스토어","날씨"};
+	
+}

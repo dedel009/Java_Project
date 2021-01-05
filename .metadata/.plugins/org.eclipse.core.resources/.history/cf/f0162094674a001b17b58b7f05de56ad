@@ -1,0 +1,8 @@
+package project1230;
+import java.util.*;
+
+public class Internet {
+	public void search_internet() {
+		System.out.println("검색어 입력: ");
+	}
+}

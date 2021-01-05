@@ -1,0 +1,4 @@
+package project1230;
+
+public class Company extends Car {
+}

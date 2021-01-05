@@ -1,0 +1,27 @@
+package project1230;
+import java.util.*;
+
+public abstract class App {
+	private ArrayList<String> App_data = new ArrayList<String>(
+			Arrays.asList("설정", "날씨", "앱스토어", "전화")		//기본적으로 깔려있는 앱
+			);
+
+	public void show_App() {	//깔려있는 앱 보기
+		for(String s : App_data) {
+			System.out.print(s+" ");
+		}
+	}
+
+	public void download_App(String app) {		//앱다운로드
+		App_data.add(app);
+	}
+	
+	public void delete_App(String app) {
+		App_data.remove(app);
+	}
+	
+	public void run_App(String app) {
+		System.out.println(app+"을 실행합니다.");
+	}
+	
+}

@@ -1,0 +1,8 @@
+package project0105;
+
+import project0104.Exam;
+
+public class Exam_list {
+	Exam[] exams;
+	int current;
+}

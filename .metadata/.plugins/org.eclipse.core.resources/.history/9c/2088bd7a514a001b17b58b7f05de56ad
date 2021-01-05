@@ -1,0 +1,7 @@
+package project1230;
+import java.util.*;
+
+public class App {
+	ArrayList<String> App_data = new ArrayList<String>("설정","전화","앱스토어","날씨");
+	
+}

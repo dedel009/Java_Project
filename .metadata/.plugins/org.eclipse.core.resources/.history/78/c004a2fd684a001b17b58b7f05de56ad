@@ -1,0 +1,10 @@
+package project1230;
+
+public class Movie_info extends Movie{
+
+	public void changeMovie_name() {
+		super.movie_name = "스위트홈X";
+		super.movie_RunTime = 3;
+	}
+	
+}
